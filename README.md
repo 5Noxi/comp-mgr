@@ -5,10 +5,14 @@ Manage components (`packages`, `optional features`, `capabilities`) easily withi
 
 Preview:
 
+https://github.com/user-attachments/assets/39e91700-2ebc-4d35-a9ea-07910774cbc7
+
 Default `24H2 (Build 26100.1742)` components:
-> [AppX.txt]()
-> [Optional.txt]()
-> [Capabilities.txt]()
+> [AppX.txt](https://github.com/5Noxi/CompMan/blob/main/AppX.txt)
+> 
+> [Optional.txt](https://github.com/5Noxi/CompMan/blob/main/Optional.txt)
+> 
+> [Capabilities.txt](https://github.com/5Noxi/CompMan/blob/main/Capabilities.txt) 
 
 
 ## __AppX Packages Tab:__
