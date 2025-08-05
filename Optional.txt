@@ -1,0 +1,1505 @@
+PS C:\Users\Nohuxi> Get-WindowsOptionalFeature -Online -FeatureName * | Format-List *
+
+DisplayName      :
+Description      :
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : Windows-Defender-Default-Definitions
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Microsoft XPS Document Writer
+Description      : Provides binaries on the system for creating the XPS Document Writer Print Queue
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : Printing-XPSServices-Features
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Telnet Client
+Description      : Allows you to connect to other computers remotely.
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, Type...}
+FeatureName      : TelnetClient
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : TFTP Client
+Description      : Transfer files using the Trivial File Transfer Protocol
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, Type...}
+FeatureName      : TFTP
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows TIFF IFilter
+Description      : Enables the indexing and searching of Tagged Image File Format (TIFF) files using Optical Character
+                   Recognition (OCR).
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, Type...}
+FeatureName      : TIFFIFilter
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Virtual Machine Platform
+Description      : Enables platform support for virtual machines
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : VirtualMachinePlatform
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows Identity Foundation 3.5
+Description      : Windows Identity Foundation (WIF) 3.5 is a set of .NET Framework classes that can be used for
+                   implementing claims-based identity in your .NET 3.5 and 4.0 applications. WIF 3.5 has been
+                   superseded by WIF classes that are provided as part of .NET 4.5. It is recommended that you use
+                   .NET 4.5 for supporting claims-based identity in your applications.
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, Type...}
+FeatureName      : Windows-Identity-Foundation
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows PowerShell 2.0
+Description      : Adds or Removes Windows PowerShell 2.0
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : MicrosoftWindowsPowerShellV2Root
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows PowerShell 2.0 Engine
+Description      : Adds or Removes Windows PowerShell 2.0 Engine
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : MicrosoftWindowsPowerShellV2
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows Projected File System
+Description      : Enables Windows Projected File System
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : Client-ProjFS
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Simple TCPIP services (i.e. echo, daytime etc)
+Description      : Install Simple TCPIP services
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, Type...}
+FeatureName      : SimpleTCP
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Work Folders Client
+Description      : Allows file synchronization with a configured file server.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : WorkFolders-Client
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : .NET Framework 3.5 (includes .NET 2.0 and 3.0)
+Description      : .NET Framework 3.5 (includes .NET 2.0 and 3.0)
+RestartRequired  : Possible
+CustomProperties : {FWLink}
+FeatureName      : NetFx3
+State            : DisabledWithPayloadRemoved
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows Communication Foundation HTTP Activation
+Description      : Windows Communication Foundation HTTP Activation
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, InstallWithParentByDefault...}
+FeatureName      : WCF-HTTP-Activation
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows Communication Foundation Non-HTTP Activation
+Description      : Windows Communication Foundation Non-HTTP Activation
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, InstallWithParentByDefault...}
+FeatureName      : WCF-NonHTTP-Activation
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Internet Information Services
+Description      : Internet Information Services provides support for Web and FTP servers, along with support for
+                   ASP.NET web sites, dynamic content such as Classic ASP and CGI, and local and remote management.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-WebServerRole
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : World Wide Web Services
+Description      : Installs the IIS 10.0 World Wide Web Services. Provides support for HTML web sites and optional
+                   support for ASP.NET, Classic ASP, and web server extensions.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-WebServer
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Common HTTP Features
+Description      : Installs support for Web server content such as HTML and image files.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-CommonHttpFeatures
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : HTTP Errors
+Description      : Allows you to customize the error messages returned to clients
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-HttpErrors
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : HTTP Redirection
+Description      : Redirect client requests to a specific destination
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-HttpRedirect
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Application Development Features
+Description      : Install Web server application development features
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-ApplicationDevelopment
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Security
+Description      : Enable additional security features to secure servers, sites, applications, vdirs, and files
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-Security
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Request Filtering
+Description      : Configure rules to block selected client requests.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-RequestFiltering
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : .NET Extensibility 3.5
+Description      : Enable your Web server to host .NET Framework 3.5 applications
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-NetFxExtensibility
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : .NET Extensibility 4.8
+Description      : Enable your Web server to host .NET Framework v4.8 applications
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-NetFxExtensibility45
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Health and Diagnostics
+Description      : Enables you to monitor and manage server, site, and application health
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-HealthAndDiagnostics
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : HTTP Logging
+Description      : Enables logging of Web site activity for this server
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-HttpLogging
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Logging Tools
+Description      : Install IIS 10.0 logging tools and scripts
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-LoggingLibraries
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Request Monitor
+Description      : Monitor server, site, and application health
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-RequestMonitor
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Tracing
+Description      : Enable tracing for ASP.NET applications and failed requests
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-HttpTracing
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : URL Authorization
+Description      : Authorize client access to the URLs that comprise a Web application.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-URLAuthorization
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : IP Security
+Description      : Allow or deny content access based on IP address or domain name.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-IPSecurity
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Performance Features
+Description      : Install performance features
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-Performance
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Dynamic Content Compression
+Description      : Compress dynamic content before returning it to client
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-HttpCompressionDynamic
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Web Management Tools
+Description      : Install Web management console and tools
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-WebServerManagementTools
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : IIS Management Scripts and Tools
+Description      : Manage a local Web server with IIS configuration scripts
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-ManagementScriptingTools
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : IIS 6 Management Compatibility
+Description      : Allows you to use existing IIS 6.0 APIs and scripts to manage this IIS 10.0 web server
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-IIS6ManagementCompatibility
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : IIS Metabase and IIS 6 configuration compatibility
+Description      : Install IIS metabase and compatibility layer to allow metabase calls to interact with new IIS 10.0
+                   configuration store
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-Metabase
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows Process Activation Service
+Description      : Install Windows Process Activation Service
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : WAS-WindowsActivationService
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Process Model
+Description      : Install Process Model for the Windows Process Activation Service
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : WAS-ProcessModel
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : .NET Environment
+Description      : Install the .NET Environment for supporting managed code activation
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : WAS-NetFxEnvironment
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Configuration APIs
+Description      : Install managed code configuration APIs
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : WAS-ConfigurationAPI
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Internet Information Services Hostable Web Core
+Description      : Program your application to serve HTTP requests by using core IIS functionality.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-HostableWebCore
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : WCF Services
+Description      : WCF Services
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, InstallWithParentByDefault...}
+FeatureName      : WCF-Services45
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : HTTP Activation
+Description      : HTTP Activation
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, InstallWithParentByDefault...}
+FeatureName      : WCF-HTTP-Activation45
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : TCP Activation
+Description      : TCP Activation
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, InstallWithParentByDefault...}
+FeatureName      : WCF-TCP-Activation45
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Named Pipe Activation
+Description      : Named Pipe Activation
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, InstallWithParentByDefault...}
+FeatureName      : WCF-Pipe-Activation45
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Message Queuing (MSMQ) Activation
+Description      : Message Queuing (MSMQ) Activation
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, InstallWithParentByDefault...}
+FeatureName      : WCF-MSMQ-Activation45
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : TCP Port Sharing
+Description      : TCP Port Sharing
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, InstallWithParentByDefault...}
+FeatureName      : WCF-TCP-PortSharing45
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Static Content
+Description      : Serve .htm, .html, and image files from a Web site
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-StaticContent
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Default Document
+Description      : Allows you to specify a default file to be loaded when users do not specify a file in a request URL
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-DefaultDocument
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Directory Browsing
+Description      : Allow clients to see the contents of a directory on your Web server
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-DirectoryBrowsing
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : WebDAV Publishing
+Description      : Publish and manage files on a Web server by using the HTTP protocol.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-WebDAV
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : WebSocket Protocol
+Description      : IIS 10.0 and ASP.NET 4.8 support writing server applications that communicate over the WebSocket
+                   Protocol.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-WebSockets
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Application Initialization
+Description      : Application Initialization perform expensive web application initialization tasks before serving
+                   web pages.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-ApplicationInit
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : ISAPI Filters
+Description      : Allow ISAPI filters to modify Web server behavior
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-ISAPIFilter
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : ISAPI Extensions
+Description      : Allow ISAPI extensions to handle client requests
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-ISAPIExtensions
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : ASP.NET 3.5
+Description      : Enable your Web server to host ASP.NET 3.5 applications
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-ASPNET
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : ASP.NET 4.8
+Description      : Enable your Web server to host ASP.NET v4.8 applications
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-ASPNET45
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : ASP
+Description      : Enable your Web server to host Classic ASP applications
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-ASP
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : CGI
+Description      : Enable support for CGI executables
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-CGI
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Server-Side Includes
+Description      : Serve .stm, .shtm, and .shtml files from a Web site
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-ServerSideIncludes
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Custom Logging
+Description      : Enable support for custom logging for Web servers, sites, and applications
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-CustomLogging
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Basic Authentication
+Description      : Require a valid Windows user name and password for connection.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-BasicAuthentication
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Static Content Compression
+Description      : Compress static content before returning it to a client
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-HttpCompressionStatic
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : IIS Management Console
+Description      : Install Web server Management Console which supports management of local and remote Web servers.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-ManagementConsole
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : IIS Management Service
+Description      : Allow the web server to be managed remotely from another computer via the Web server Management
+                   Console
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-ManagementService
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : IIS 6 WMI Compatibility
+Description      : Install IIS 6.0 WMI scripting interfaces
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-WMICompatibility
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : IIS 6 Scripting Tools
+Description      : Install IIS 6.0 configuration scripts
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-LegacyScripts
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : FTP Server
+Description      : Enable your server to transfer files by using the FTP protocol.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-FTPServer
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : FTP Service
+Description      : Enable FTP publishing on a Web server.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-FTPSvc
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : FTP Extensibility
+Description      : Customize FTP publishing by writing your own software extensions.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : IIS-FTPExtensibility
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Microsoft Message Queue (MSMQ) Server
+Description      : Microsoft Message Queue (MSMQ) Server.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : MSMQ-Container
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : MSMQ DCOM Proxy
+Description      : The DCOM proxy feature enables MSMQ applications to use MSMQ DCOM API to connect to a remote MSMQ
+                   Server.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : MSMQ-DCOMProxy
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Microsoft Message Queue (MSMQ) Server Core
+Description      : This feature installs the core components of MSMQ which enables you to perform basic Message
+                   queuing functions. This feature is a minimum requirement.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : MSMQ-Server
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : MSMQ HTTP Support
+Description      : The HTTP Support feature allows you to expose a queue to the internet such that applications can
+                   send messages to the queue using HTTP protocol. This feature requires Internet Information Server.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : MSMQ-HTTP
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Multicasting Support
+Description      : The Multicast support feature enables you to send messages to a Multicast IPAddress. Queues can be
+                   associated with a Multicast IPAddress. Messages sent to a Multicast IPAddress will be delivered to
+                   the queues that are associated with that IPAddress.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : MSMQ-Multicast
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : MSMQ Triggers
+Description      : Message Queue Triggers enables the invocation of a COM component or an executable depending on the
+                   filters that you define for the incoming messages in a given queue.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : MSMQ-Triggers
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : SMB 1.0/CIFS Automatic Removal
+Description      : Automatically removes support for the legacy SMB 1.0/CIFS protocol when such support isn't actively
+                   needed during normal system usage.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : SMB1Protocol-Deprecation
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Media Features
+Description      : Controls media features such as Windows Media Player.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : MediaPlayback
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows Media Player Legacy (App)
+Description      : Windows Media Player Legacy (App)
+RestartRequired  : Possible
+CustomProperties : {SoftBlockLink}
+FeatureName      : WindowsMediaPlayer
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Microsoft Print to PDF
+Description      : Provides binaries on the system for creating the Microsoft Print to PDF Print Queue
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : Printing-PrintToPDFServices-Features
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Recall
+Description      : Recall application.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : Recall
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows Search
+Description      : Provides content indexing, property caching, and search results for files, e-mail, and other
+                   content.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : SearchEngine-Client-Package
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Remote Desktop Connection
+Description      : The Remote Desktop Connection application.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : Microsoft-RemoteDesktopConnection
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows Hypervisor Platform
+Description      : Enables virtualization software to run on the Windows hypervisor
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : HypervisorPlatform
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Windows Subsystem for Linux
+Description      : Provides services and environments for running native user-mode Linux shells and tools on Windows.
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, Type...}
+FeatureName      : Microsoft-Windows-Subsystem-Linux
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Legacy Components
+Description      : Controls legacy components in Windows.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : LegacyComponents
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : DirectPlay
+Description      : Enables the installation of DirectPlay component.
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, Type...}
+FeatureName      : DirectPlay
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Print and Document Services
+Description      : Enable print, fax, and scan tasks on this computer
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : Printing-Foundation-Features
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Internet Printing Client
+Description      : Enables clients to use HTTP to connect to printers on Web print servers
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : Printing-Foundation-InternetPrinting-Client
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : LPD Print Service
+Description      : Makes your Windows computer work as a Line Printer Daemon (LPD) and Remote Line Printer client
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : Printing-Foundation-LPDPrintService
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : LPR Port Monitor
+Description      : Enables clients to print to TCP/IP printers connected to a Unix (or VAX) server
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : Printing-Foundation-LPRPortMonitor
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : Remote Differential Compression API Support
+Description      : Installs Remote Differential Compression (RDC) support for use in third-party applications.
+RestartRequired  : Possible
+CustomProperties : {}
+FeatureName      : MSRDC-Infrastructure
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : .NET Framework 4.8 Advanced Services
+Description      : .NET Framework 4.8 Advanced Services
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, Type...}
+FeatureName      : NetFx4-AdvSrvs
+State            : Enabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : ASP.NET 4.8
+Description      : ASP.NET 4.8
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, InstallWithParentByDefault...}
+FeatureName      : NetFx4Extended-ASPNET45
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : SMB 1.0/CIFS File Sharing Support
+Description      : Support for the SMB 1.0/CIFS file sharing protocol, and the Computer Browser protocol.
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, Type...}
+FeatureName      : SMB1Protocol
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : SMB 1.0/CIFS Client
+Description      : Support for the SMB 1.0/CIFS client for accessing legacy servers.
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, InstallWithParentByDefault...}
+FeatureName      : SMB1Protocol-Client
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
+
+DisplayName      : SMB 1.0/CIFS Server
+Description      : Support for the SMB 1.0/CIFS file server for sharing data with legacy clients and browsing the
+                   network neighborhood.
+RestartRequired  : Possible
+CustomProperties : {Description, DisplayName, Id, InstallWithParentByDefault...}
+FeatureName      : SMB1Protocol-Server
+State            : Disabled
+Path             :
+Online           : True
+WinPath          :
+SysDrivePath     :
+RestartNeeded    : False
+LogPath          : C:\WINDOWS\Logs\DISM\dism.log
+ScratchDirectory :
+LogLevel         : WarningsInfo
