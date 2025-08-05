@@ -115,3 +115,6 @@ Add-WindowsCapability -Online -Name 'WMIC~~~~'
 > https://learn.microsoft.com/en-us/powershell/module/dism/get-windowscapability?view=windowsserver2025-ps
 > https://learn.microsoft.com/en-us/powershell/module/dism/add-windowscapability?view=windowsserver2025-ps
 > https://learn.microsoft.com/en-us/powershell/module/dism/remove-windowscapability?view=windowsserver2025-ps
+
+ ## Discord Server 
+- https://discord.gg/E2ybG4j9jU
