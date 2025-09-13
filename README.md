@@ -8,12 +8,9 @@ Preview:
 https://github.com/user-attachments/assets/39e91700-2ebc-4d35-a9ea-07910774cbc7
 
 Default `24H2 (Build 26100.1742)` components:
-> [AppX.txt](https://github.com/5Noxi/CompMan/blob/main/AppX.txt)
-> 
-> [Optional.txt](https://github.com/5Noxi/CompMan/blob/main/Optional.txt)
-> 
-> [Capabilities.txt](https://github.com/5Noxi/CompMan/blob/main/Capabilities.txt) 
-
+> [AppX.txt](https://github.com/5Noxi/CompMan/blob/main/AppX.txt)  
+> [Optional.txt](https://github.com/5Noxi/CompMan/blob/main/Optional.txt)  
+> [Capabilities.txt](https://github.com/5Noxi/CompMan/blob/main/Capabilities.txt)  
 
 ## __AppX Packages Tab:__
 Get all of your current packages with:
@@ -40,9 +37,9 @@ $apps = @(
 
 $apps | % {Get-AppxPackage -AllUsers -Name $_ | Remove-AppxPackage}
 ```
-> https://learn.microsoft.com/en-us/powershell/module/appx/get-appxpackage?view=windowsserver2025-ps
-> https://learn.microsoft.com/en-us/powershell/module/appx/add-appxpackage?view=windowsserver2025-ps
-> https://learn.microsoft.com/en-us/powershell/module/appx/remove-appxpackage?view=windowsserver2025-ps
+> https://learn.microsoft.com/en-us/powershell/module/appx/get-appxpackage?view=windowsserver2025-ps  
+> https://learn.microsoft.com/en-us/powershell/module/appx/add-appxpackage?view=windowsserver2025-ps  
+> https://learn.microsoft.com/en-us/powershell/module/appx/remove-appxpackage?view=windowsserver2025-ps  
 
 
 ## __Optional Features Tab:__
@@ -83,10 +80,10 @@ $enfeatures= @(
 $defeatures | % {Disable-WindowsOptionalFeature -FeatureName $_ -Online -NoRestart}
 $enfeatures| % {Enable-WindowsOptionalFeature -FeatureName $_ -Online -NoRestart}
 ```
-> https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/
-> https://learn.microsoft.com/en-us/powershell/module/dism/get-windowsoptionalfeature?view=windowsserver2025-ps
-> https://learn.microsoft.com/en-us/powershell/module/dism/enable-windowsoptionalfeature?view=windowsserver2025-ps
-> https://learn.microsoft.com/en-us/powershell/module/dism/disable-windowsoptionalfeature?view=windowsserver2025-ps
+> https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/  
+> https://learn.microsoft.com/en-us/powershell/module/dism/get-windowsoptionalfeature?view=windowsserver2025-ps  
+> https://learn.microsoft.com/en-us/powershell/module/dism/enable-windowsoptionalfeature?view=windowsserver2025-ps  
+> https://learn.microsoft.com/en-us/powershell/module/dism/disable-windowsoptionalfeature?view=windowsserver2025-ps  
 
 
 ## __Capabilities Tab:__
@@ -112,9 +109,6 @@ $capabilities = @(
 $capabilities | % {Get-WindowsCapability -Online -Name $_ | Remove-WindowsCapability -Online}
 Add-WindowsCapability -Online -Name 'WMIC~~~~'
 ```
-> https://learn.microsoft.com/en-us/powershell/module/dism/get-windowscapability?view=windowsserver2025-ps
-> https://learn.microsoft.com/en-us/powershell/module/dism/add-windowscapability?view=windowsserver2025-ps
-> https://learn.microsoft.com/en-us/powershell/module/dism/remove-windowscapability?view=windowsserver2025-ps
-
- ## Discord Server 
-- https://discord.gg/E2ybG4j9jU
+> https://learn.microsoft.com/en-us/powershell/module/dism/get-windowscapability?view=windowsserver2025-ps  
+> https://learn.microsoft.com/en-us/powershell/module/dism/add-windowscapability?view=windowsserver2025-ps  
+> https://learn.microsoft.com/en-us/powershell/module/dism/remove-windowscapability?view=windowsserver2025-ps  
