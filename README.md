@@ -1,4 +1,3 @@
-
 # Component Manager
 
 Manage components (`packages`, `optional features`, `capabilities`) easily within a single tool. It currently gets the lists of all components using three background jobs, which means that the lists won't instantly appear on startup. I used `Start-Job`, since the GUI would otherwise take ~`30` seconds to load.
