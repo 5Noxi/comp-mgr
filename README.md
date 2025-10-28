@@ -98,7 +98,7 @@ $capabilities = @(
     "Microsoft.Windows.PowerShell.ISE*",
     "MathRecognizer*",
     "App.StepsRecorder*",
-    #"*SnippingTool*", # If using Lightshot
+    #"*SnippingTool*", # If using ShareX/Lightshot etc.
     "*MSPaint*",
     #"*Notepad*", # If using Notepad++
     "*Wallpapers.Extended*",
